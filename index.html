@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cultura General del Perú</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#b91c1c">
+</head>
+
+<body>
+
+    <h1>🇵🇪 Cultura General del Perú</h1>
+
+    <div id="inicio">
+        <p>¡Pon a prueba tus conocimientos sobre el Perú!</p>
+
+        <h2>📚 Elige una categoría</h2>
+
+        <button onclick="iniciarJuego('historia')">🏛️ Historia</button>
+        <button onclick="iniciarJuego('geografia')">🗺️ Geografía</button>
+        <button onclick="iniciarJuego('gastronomia')">🍲 Gastronomía</button>
+        <button onclick="iniciarJuego('fauna')">🦙 Flora y Fauna</button>
+        <button onclick="iniciarJuego('arqueologia')">🏺 Arqueología</button>
+        <button onclick="iniciarJuego('simbolos')">🇵🇪 Símbolos Patrios</button>
+    </div>
+
+    <div id="juego" style="display: none;">
+
+        <h2 id="pregunta"></h2>
+
+        <div id="respuestas"></div>
+
+        <p id="resultado"></p>
+
+        <p>🏆 Puntaje: <span id="puntaje">0</span></p>
+
+        <button id="siguiente" onclick="siguientePregunta()" style="display: none;">
+            ➡️ Siguiente
+        </button>
+
+    </div>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
