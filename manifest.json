@@ -1,0 +1,10 @@
+{
+  "name": "Cultura General del Perú",
+  "short_name": "CulturaPeru",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b91c1c",
+  "description": "Aplicación de preguntas sobre cultura general del Perú",
+  "icons": []
+}
