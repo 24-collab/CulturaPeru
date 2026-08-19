@@ -71,34 +71,34 @@ const preguntasPeru = {
         }
     ],
 
-    gastronomia: [
+    economia: [
         {
-            pregunta: "¿Cuál es un plato tradicional peruano?",
-            respuestas: ["Ceviche", "Paella", "Sushi", "Tacos"],
-            correcta: 0
+            pregunta: "¿Cuál es la pricipal actividad economica de exportacion del Peru en 2025-2026?",
+            respuestas: ["Pesca y harina de pescado", "Agroexportacion: arandanos, uvas y paltas", "Mineria: cobre, oro y zinc", "Textiles y confecciones"],
+            correcta: 2
         },
         {
-            pregunta: "¿Cuál es uno de los ingredientes principales del ají de gallina?",
-            respuestas: ["Pollo", "Pescado", "Cerdo", "Cordero"],
-            correcta: 0
+            pregunta: "¿Que institucion es la encargada de emitir billites y controlar la influencia en el Peru?",
+            respuestas: ["Ministerio de Economia y Finanzas-MEF", "Superintendencia de Bancay Seguros-SBS", "Banco Central de Reserva del Peru-BCRP", "SUNAT"],
+            correcta: 2
         }
     ],
 
-    fauna: [
+    etica: [
         {
-            pregunta: "¿Cuál es un animal representativo de los Andes peruanos?",
-            respuestas: ["Llama", "Canguro", "Oso polar", "Cebra"],
-            correcta: 0
+            pregunta: "¿Que valor etico se muestra cuando devuelvesun celular que encontrastes en la calle?",
+            respuestas: ["Responsabilidad", "Honestidad", "Tolerancia", "Empatia"],
+            correcta: 1
         },
         {
-            pregunta: "¿Qué ave es representativa de la fauna andina?",
+            pregunta: "En el trabajo, un compañero hace mal su tarea. ¿Que actitud etica es la mas correcta?",
             respuestas: [
-                "Cóndor andino",
-                "Pingüino",
-                "Águila calva",
-                "Flamenco"
+                "Burlarse de el con los demas",
+                "Ignorarlo y dejar que lo despidan",
+                "Ayudarlo y explicarlo como mejorar",
+                "Hacer su trabajo tu para que no lo regañen"
             ],
-            correcta: 0
+            correcta: 2
         }
     ],
 
