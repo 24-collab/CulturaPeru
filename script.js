@@ -86,7 +86,7 @@ const preguntasPeru = {
 
     etica: [
         {
-            pregunta: "¿Que valor etico se muestra cuando devuelvesun celular que encontrastes en la calle?",
+            pregunta: "¿Que valor etico se muestra cuando devuelves un celular que encontrastes en la calle?",
             respuestas: ["Responsabilidad", "Honestidad", "Tolerancia", "Empatia"],
             correcta: 1
         },
